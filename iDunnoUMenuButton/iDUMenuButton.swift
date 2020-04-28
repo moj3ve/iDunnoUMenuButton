@@ -42,10 +42,12 @@ class iDUMenuButton: UIControl, BadgeView {
                     let haptics = UIImpactFeedbackGenerator(style: .rigid)
                     haptics.impactOccurred()
                 }
-                self.layoutIfNeeded()
+                guard let sv = self.superview else {
+                    fatalError("\(description) does not have a superview.")
+                }
                 UIView.animate(withDuration: 0.3) {
                     self.heightConstraint.isActive = !self.isExpanded
-                    self.layoutIfNeeded()
+                    sv.layoutIfNeeded()
                     self.layer.shadowOpacity = self.isExpanded ? 1 : 0
                     self.buttons.forEach { $0.setBadgeHidden(hidden: !self.isExpanded, animated: true) }
                 }
