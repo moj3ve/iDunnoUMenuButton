@@ -13,6 +13,15 @@
 		16D6BE4F245266A5009E3A50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D6BE4D245266A5009E3A50 /* Main.storyboard */; };
 		16D6BE51245266A7009E3A50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D6BE50245266A7009E3A50 /* Assets.xcassets */; };
 		16D6BE54245266A7009E3A50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D6BE52245266A7009E3A50 /* LaunchScreen.storyboard */; };
+		16D6BE5C245266DB009E3A50 /* iDUMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D6BE5B245266DB009E3A50 /* iDUMenuButton.swift */; };
+		16D6BE5E24526708009E3A50 /* iDUButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D6BE5D24526708009E3A50 /* iDUButton.swift */; };
+		16D6BE6224534FED009E3A50 /* iDUMenuCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D6BE6124534FEC009E3A50 /* iDUMenuCollectionView.swift */; };
+		16D6BE6424538BE3009E3A50 /* iDUMenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D6BE6324538BE3009E3A50 /* iDUMenuCollectionViewCell.swift */; };
+		16D6BE662453B580009E3A50 /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D6BE652453B580009E3A50 /* BadgeView.swift */; };
+		16D6BE6A2455A914009E3A50 /* iDUNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D6BE692455A914009E3A50 /* iDUNavigationBar.swift */; };
+		16D6BE6C2455CCAD009E3A50 /* UIView+allSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D6BE6B2455CCAD009E3A50 /* UIView+allSubviews.swift */; };
+		16D6BE6E2455D763009E3A50 /* iDUMenuButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D6BE6D2455D763009E3A50 /* iDUMenuButtonDelegate.swift */; };
+		16D6BE722455D81A009E3A50 /* iDUMenuButtonDimmingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D6BE712455D81A009E3A50 /* iDUMenuButtonDimmingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		16D6BE50245266A7009E3A50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16D6BE53245266A7009E3A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16D6BE55245266A7009E3A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D6BE5B245266DB009E3A50 /* iDUMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDUMenuButton.swift; sourceTree = "<group>"; };
+		16D6BE5D24526708009E3A50 /* iDUButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDUButton.swift; sourceTree = "<group>"; };
+		16D6BE6124534FEC009E3A50 /* iDUMenuCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDUMenuCollectionView.swift; sourceTree = "<group>"; };
+		16D6BE6324538BE3009E3A50 /* iDUMenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDUMenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		16D6BE652453B580009E3A50 /* BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
+		16D6BE692455A914009E3A50 /* iDUNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDUNavigationBar.swift; sourceTree = "<group>"; };
+		16D6BE6B2455CCAD009E3A50 /* UIView+allSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+allSubviews.swift"; sourceTree = "<group>"; };
+		16D6BE6D2455D763009E3A50 /* iDUMenuButtonDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDUMenuButtonDelegate.swift; sourceTree = "<group>"; };
+		16D6BE712455D81A009E3A50 /* iDUMenuButtonDimmingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDUMenuButtonDimmingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +77,15 @@
 				16D6BE47245266A5009E3A50 /* AppDelegate.swift */,
 				16D6BE49245266A5009E3A50 /* SceneDelegate.swift */,
 				16D6BE4B245266A5009E3A50 /* ViewController.swift */,
+				16D6BE5B245266DB009E3A50 /* iDUMenuButton.swift */,
+				16D6BE6124534FEC009E3A50 /* iDUMenuCollectionView.swift */,
+				16D6BE712455D81A009E3A50 /* iDUMenuButtonDimmingView.swift */,
+				16D6BE6B2455CCAD009E3A50 /* UIView+allSubviews.swift */,
+				16D6BE692455A914009E3A50 /* iDUNavigationBar.swift */,
+				16D6BE6D2455D763009E3A50 /* iDUMenuButtonDelegate.swift */,
+				16D6BE6324538BE3009E3A50 /* iDUMenuCollectionViewCell.swift */,
+				16D6BE5D24526708009E3A50 /* iDUButton.swift */,
+				16D6BE652453B580009E3A50 /* BadgeView.swift */,
 				16D6BE4D245266A5009E3A50 /* Main.storyboard */,
 				16D6BE50245266A7009E3A50 /* Assets.xcassets */,
 				16D6BE52245266A7009E3A50 /* LaunchScreen.storyboard */,
@@ -93,9 +120,10 @@
 		16D6BE3C245266A5009E3A50 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = iDU;
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
-				ORGANIZATIONNAME = "Jacob Clayden";
+				ORGANIZATIONNAME = JacobCXDev;
 				TargetAttributes = {
 					16D6BE43245266A5009E3A50 = {
 						CreatedOnToolsVersion = 11.4.1;
@@ -138,9 +166,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16D6BE6C2455CCAD009E3A50 /* UIView+allSubviews.swift in Sources */,
+				16D6BE6424538BE3009E3A50 /* iDUMenuCollectionViewCell.swift in Sources */,
+				16D6BE5E24526708009E3A50 /* iDUButton.swift in Sources */,
 				16D6BE4C245266A5009E3A50 /* ViewController.swift in Sources */,
+				16D6BE5C245266DB009E3A50 /* iDUMenuButton.swift in Sources */,
+				16D6BE6224534FED009E3A50 /* iDUMenuCollectionView.swift in Sources */,
+				16D6BE662453B580009E3A50 /* BadgeView.swift in Sources */,
 				16D6BE48245266A5009E3A50 /* AppDelegate.swift in Sources */,
+				16D6BE722455D81A009E3A50 /* iDUMenuButtonDimmingView.swift in Sources */,
 				16D6BE4A245266A5009E3A50 /* SceneDelegate.swift in Sources */,
+				16D6BE6A2455A914009E3A50 /* iDUNavigationBar.swift in Sources */,
+				16D6BE6E2455D763009E3A50 /* iDUMenuButtonDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9489Q3YVAN;
 				INFOPLIST_FILE = iDunnoUMenuButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +343,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9489Q3YVAN;
 				INFOPLIST_FILE = iDunnoUMenuButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
